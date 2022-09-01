@@ -25,10 +25,6 @@ namespace APItaiRPS.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<GameLog>>> GetGameLogs()
         {
-          if (_context.GameLogs == null)
-          {
-              return NotFound();
-          }
             return await _context.GameLogs.ToListAsync();
         }
 
@@ -86,15 +82,12 @@ namespace APItaiRPS.Controllers
         [HttpPost]
         public async Task<ActionResult<GameLog>> PostGameLog(GameLog gameLog)
         {
-          if (_context.GameLogs == null)
-          {
-              return Problem("Entity set 'DataContext.GameLogs'  is null.");
-          }
             _context.GameLogs.Add(gameLog);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetGameLog", new { id = gameLog.Id }, gameLog);
         }
+
 
         // DELETE: api/GameLogs/5
         [HttpDelete("{id}")]
