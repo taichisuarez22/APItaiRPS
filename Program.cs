@@ -23,7 +23,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: myAllowSpecificOrigins,
         builder =>
         {
-            builder.WithOrigins("http://localhost:7000")
+            builder.WithOrigins("http://localhost:4200")
             .AllowAnyMethod()
             .AllowAnyHeader();
         });
@@ -47,3 +47,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+

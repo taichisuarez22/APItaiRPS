@@ -14,3 +14,67 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\User\APItaiRPS\APItaiRPS
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/User/APItaiRPS/APItaiRPS/Views/create/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY3JlYXRlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/APItaiRPS/APItaiRPS/Views/create/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY3JlYXRlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/APItaiRPS/APItaiRPS/Views/create/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY3JlYXRlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/APItaiRPS/APItaiRPS/Views/create/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY3JlYXRlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/APItaiRPS/APItaiRPS/Views/create/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY3JlYXRlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/APItaiRPS/APItaiRPS/Views/GameLogs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZUxvZ3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/APItaiRPS/APItaiRPS/Views/GameLogs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZUxvZ3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/APItaiRPS/APItaiRPS/Views/GameLogs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZUxvZ3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/APItaiRPS/APItaiRPS/Views/GameLogs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZUxvZ3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/APItaiRPS/APItaiRPS/Views/GameLogs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZUxvZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/APItaiRPS/APItaiRPS/Views/Moves/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/APItaiRPS/APItaiRPS/Views/Moves/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/APItaiRPS/APItaiRPS/Views/Moves/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/APItaiRPS/APItaiRPS/Views/Moves/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/APItaiRPS/APItaiRPS/Views/Moves/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/APItaiRPS/APItaiRPS/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

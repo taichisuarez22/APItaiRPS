@@ -264,3 +264,5 @@ C:\Users\User\APItaiRPS\APItaiRPS\obj\Debug\net6.0\refint\APItaiRPS.dll
 C:\Users\User\APItaiRPS\APItaiRPS\obj\Debug\net6.0\APItaiRPS.pdb
 C:\Users\User\APItaiRPS\APItaiRPS\obj\Debug\net6.0\APItaiRPS.genruntimeconfig.cache
 C:\Users\User\APItaiRPS\APItaiRPS\obj\Debug\net6.0\ref\APItaiRPS.dll
+C:\Users\User\APItaiRPS\APItaiRPS\obj\Debug\net6.0\APItaiRPS.RazorAssemblyInfo.cache
+C:\Users\User\APItaiRPS\APItaiRPS\obj\Debug\net6.0\APItaiRPS.RazorAssemblyInfo.cs
