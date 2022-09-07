@@ -25,10 +25,6 @@ namespace APItaiRPS.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Move>>> GetMoves()
         {
-          if (_context.Moves == null)
-          {
-              return NotFound();
-          }
             return await _context.Moves.ToListAsync();
         }
 
@@ -36,10 +32,6 @@ namespace APItaiRPS.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Move>> GetMove(int id)
         {
-          if (_context.Moves == null)
-          {
-              return NotFound();
-          }
             var move = await _context.Moves.FindAsync(id);
 
             if (move == null)
@@ -96,10 +88,6 @@ namespace APItaiRPS.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteMove(int id)
         {
-            if (_context.Moves == null)
-            {
-                return NotFound();
-            }
             var move = await _context.Moves.FindAsync(id);
             if (move == null)
             {
@@ -114,7 +102,7 @@ namespace APItaiRPS.Controllers
 
         private bool MoveExists(int id)
         {
-            return (_context.Moves?.Any(e => e.Id == id)).GetValueOrDefault();
+            return _context.Moves.Any(e => e.Id == id);
         }
     }
 }

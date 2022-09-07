@@ -32,10 +32,6 @@ namespace APItaiRPS.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<GameLog>> GetGameLog(int id)
         {
-          if (_context.GameLogs == null)
-          {
-              return NotFound();
-          }
             var gameLog = await _context.GameLogs.FindAsync(id);
 
             if (gameLog == null)
@@ -88,15 +84,10 @@ namespace APItaiRPS.Controllers
             return CreatedAtAction("GetGameLog", new { id = gameLog.Id }, gameLog);
         }
 
-
         // DELETE: api/GameLogs/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteGameLog(int id)
         {
-            if (_context.GameLogs == null)
-            {
-                return NotFound();
-            }
             var gameLog = await _context.GameLogs.FindAsync(id);
             if (gameLog == null)
             {
@@ -111,7 +102,7 @@ namespace APItaiRPS.Controllers
 
         private bool GameLogExists(int id)
         {
-            return (_context.GameLogs?.Any(e => e.Id == id)).GetValueOrDefault();
+            return _context.GameLogs.Any(e => e.Id == id);
         }
     }
 }

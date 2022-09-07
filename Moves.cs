@@ -7,5 +7,6 @@
         public string moveName { get; set; } = String.Empty;
         public string kills { get; set; } = String.Empty;
 
+
     }
 }

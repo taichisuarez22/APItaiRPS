@@ -23,7 +23,9 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: myAllowSpecificOrigins,
         builder =>
         {
-            builder.WithOrigins("http://localhost:4200")
+            builder
+            .WithOrigins("http://localhost:4200")
+            .AllowAnyOrigin()
             .AllowAnyMethod()
             .AllowAnyHeader();
         });
@@ -40,8 +42,13 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseCors(myAllowSpecificOrigins);
+app.UseCors(x => x
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .SetIsOriginAllowed(origin => true) // allow any origin
+                .AllowCredentials());
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
